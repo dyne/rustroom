@@ -1,0 +1,9 @@
+# Create a random array
+
+rule check version 1.0.0
+
+Given nothing
+
+When I create the array of '5' random objects of '256' bits
+
+Then print the 'array'

@@ -1,0 +1,18 @@
+[package]
+name = "rustroom"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+base64 = "0.13"
+clap = "3.0.0-beta.2"
+json = "0.12"
+once_cell = "1.7"
+rand = "0.8"
+rocket = "0.4"
+tempfile = "3.2"
+zenroom = { git = "https://github.com/dyne/Zenroom" }
+
