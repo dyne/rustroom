@@ -410,9 +410,9 @@ dependencies = [
 
 [[package]]
 name = "hermit-abi"
-version = "0.1.18"
+version = "0.1.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "322f4de77956e22ed0e5032c359a0f1273f1f7f0d79bfa3b8ffbc730d7fbcc5c"
+checksum = "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33"
 dependencies = [
  "libc",
 ]
@@ -1202,7 +1202,7 @@ checksum = "9fc79f4a1e39857fc00c3f662cbf2651c771f00e9c15fe2abc341806bd46bd71"
 [[package]]
 name = "zenroom"
 version = "0.1.0"
-source = "git+https://github.com/dyne/Zenroom#a406cc7ff04407646fd10128de0a864a46c9e960"
+source = "git+https://github.com/dyne/Zenroom#bd8cb9610c315cfc16a5c52ef85995be7fa0c620"
 dependencies = [
  "bindgen",
 ]
